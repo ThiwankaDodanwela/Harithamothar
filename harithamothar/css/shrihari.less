@@ -1,0 +1,149 @@
+body {
+  font-family: "gilroylight";
+}
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+header {
+  background-image: linear-gradient(#a76dfc, #a5baff, #ffffff);
+  height: auto;
+  padding: 20px 0;
+  width: 100%;
+  float: left;
+  display: block;
+  .logo {
+    width: 80px;
+    margin: auto;
+  }
+}
+
+.main {
+  width: 100%;
+  height: auto;
+  float: left;
+  display: block;
+  padding-top: 20px;
+  background: #ffffff;
+}
+
+.textcontent {
+  width: 600px;
+  margin: auto;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  padding: 20px 0;
+  h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    line-height: 45px;
+    span {
+      font-size: 60px;
+      color: #0000cd;
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.address-block {
+  .address {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      width: 33%;
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.projects {
+  .project-slider {
+    width: 1000px;
+    margin: 20px auto;
+    .project-name {
+      font-size: 30px;
+    }
+    .project-address {
+      font-size: 20px;
+    }
+    .project-image-slider {
+      margin: 30px 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    width: 1100px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .container {
+    width: 100%;
+    padding: 0 30px;
+  }
+  .textcontent {
+    width: 100%;
+  }
+  .projects {
+    .project-slider {
+      width: 100%;
+    }
+  }
+  .address-block {
+    .address {
+      flex-direction: column;
+      .item {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+/* ----------- iPad Pro ----------- */
+/* Landscape */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* ----------- iPad ----------- */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+}
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+}
